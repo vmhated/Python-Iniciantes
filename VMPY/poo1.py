@@ -1,4 +1,5 @@
-'''nome = input("Digite seu nome:")
+#EXEMPLO DE USO 1
+nome = input("Digite seu nome:")
 idade = int(input("Digite sua idade:"))
 class pessoa:
     def __init__(self,nome,idade):
@@ -6,7 +7,8 @@ class pessoa:
         self.idade = idade
 def apresentar(self):
     print(f"Olá, meu nome é {self.nome} e tenho {self.idade} anos")
-apresentar(pessoa(nome,idade))'''
+apresentar(pessoa(nome,idade))
+#EXEMPLO DE USO 2
 carro_ = input("Digite o modelo do carro:")
 marca = input("Digite a marca do carro:")
 ano = input("Digite o ano do carro:")
